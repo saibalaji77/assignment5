@@ -1,0 +1,127 @@
+5.abstract class vechicle
+	{
+		abstract void speed();
+		}
+	class car extends vechicle
+	{
+		void speed()
+		{
+			System.out.println("120");
+		}
+		
+	}
+	class lorry extends vechicle
+	{
+		void speed() {
+		System.out.println("150");
+
+	}}
+	public class hinheritance {
+	public static void main(String[] args) {
+		lorry l=new lorry();
+		l.speed();	
+		car c=new car();
+		c.speed();
+
+
+	}}
+
+
+3. package assignment5;
+class bank{
+	void intr() {
+		System.out.println("58% intrest");
+	}
+}
+class axis extends bank{
+	void intr() {
+		System.out.println("58% intrest");	
+	}
+}
+class hdfc extends axis{
+	void intr() {
+		System.out.println("59% intrest");
+	}
+}
+public class Bank {
+
+	public static void main(String[] args) {
+		hdfc h= new hdfc();
+		axis a= new axis();
+		h.intr();
+		a.intr();
+		
+		
+
+	}
+
+}
+
+
+
+
+
+
+
+2. package package1;
+
+class Emps1 {
+	int empid=19;
+	}
+class depts extends Emps1{
+	int empid=20;
+	void show()
+	{
+		System.out.println(super.empid);
+	}
+}
+		
+	public class Emps{
+		
+	
+
+	public static void main(String[] args) {
+		depts d= new depts();
+		d.show();
+		
+	}
+
+	}
+
+
+4
+
+package assignment;
+
+
+public class Swap {
+	void show(int a,int b) {
+		int c;
+		c=a;
+		a=b;
+		b=c;
+		System.out.println(a+" "+b);
+		
+	}
+void show(double x, double y) {
+	double z;
+	z=x;
+	x=y;
+	y=z;
+	System.out.println(x+" "+y);
+}
+
+	public static void main(String[] args) {
+		Swap s=new Swap();
+		s.show(260,560);
+		s.show(55.0,65.0);
+
+
+	}
+
+}
+
+
+
+
+
