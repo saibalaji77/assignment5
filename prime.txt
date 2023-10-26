@@ -1,0 +1,106 @@
+Create a java program to explain about "String" class using given below methods
+        
+
+
+package Selfw;
+
+public class Buffered {
+
+	public static void main(String[] args) {
+
+		String s1="primecls";
+		String s2="pro";
+		String s3="string";
+        System.out.println(s1+" "+s2+" "+s3);                  //primeclsprostring
+        System.out.println(s1.concat("doing"));                //primeclsdoing
+        System.out.println(s1.charAt(0));                       //p
+        System.out.println(s1.substring(0,5)     );            //prime
+        System.out.println(s1.replace("prime","studen" ) );    //studencls
+        System.out.println(s1.indexOf("prime")    );           //0
+        System.out.println(s1.startsWith("prime"));            //true
+        System.out.println(s1.endsWith("cls"));                //true
+        System.out.println(s1.equals("pro"));                 //false
+
+
+	}
+
+}
+
+
+
+
+Create java program to explain about "StringBuilder" and "StringBuffer" classes using given below methods
+
+
+
+
+package Selfw;
+
+public class Buffered3 {
+
+	public static void main(String[] args) {
+
+		StringBuffer s5=new StringBuffer("primecls");
+	 StringBuffer  s7=new StringBuffer    ("pro");
+		StringBuffer s13=new StringBuffer ("string");
+        System.out.println(s5+" "+s7+" "+s13);                  //primeclsprostring
+        System.out.println(s5.reverse());                  
+        System.out.println(s5.delete(0,5));                  
+        System.out.println(s5.append("sn"));                  
+        System.out.println(s5.insert(0,"jt"));    
+        System.out.println(s5.length() );   
+        System.out.println(s5.indexOf("prime"));                
+}
+
+
+
+}
+
+
+Create java Program to explain about "Object" class using given below methods
+package Selfw;
+
+public class Buffered5 {
+	void get () {
+	}
+
+ public static void main(String[] args) {
+		
+		
+
+		StringBuffer s5=new StringBuffer("primecls");
+	 StringBuffer s7=new StringBuffer("pro");
+		String s13=new String("string");
+        System.out.println(s5+" "+s7+" "+s13);                  //primeclsprostring
+        System.out.println(s5.equals("string"));                  
+        System.out.println(s5==s7);                  
+        System.out.println(s5.hashCode());                  
+        System.out.println(s5.substring(0,5));    
+         
+        System.out.println(s5.getClass());
+        
+		}
+	}
+
+
+        
+        
+
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
